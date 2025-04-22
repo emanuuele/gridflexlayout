@@ -1,0 +1,39 @@
+* {
+    margin: 5px
+}
+body {
+    height: 100vh;
+}
+header, footer {
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav {
+    height: 70%;
+    width: 80%;
+}
+main {
+    display: flex;
+}
+
+article, aside section {
+    height: 100px;
+}
+
+.footer-main {
+    height: 100px;
+    display: none;
+}
+
+.border-green {
+    border: 5px solid green;
+}
+.border-yellow {
+    border: 5px solid yellow;
+}
+.border-blue {
+    border: 5px solid blue;
+}
